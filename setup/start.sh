@@ -7,3 +7,4 @@ docker run -d -t -i -P -v /var/www/projects/test/project:/var/www/project --cap-
 #volume:
 #port:
 #docker exec -it *id* bash
+#nginx -c /etc/nginx/nginx.conf -t
